@@ -1,0 +1,35 @@
+html,
+body {
+	font-family: $font-primary;
+	background-color: $primary-bg-color;
+	color: $primary-light-color;
+}
+
+a {
+	color: $primary-brand-color;
+	transition: color 0.3s linear;
+
+	&:hover {
+		color: $primary-brand-light-color;
+	}
+}
+
+ol {
+	li {
+		padding-left: 5px;
+
+		&::marker {
+			color: $secondary-brand-color;
+			font-weight: 700;
+			font-size: 1.125rem;
+		}
+	}
+}
+
+ul {
+	li {
+		&::marker {
+			color: $secondary-brand-color;
+		}
+	}
+}

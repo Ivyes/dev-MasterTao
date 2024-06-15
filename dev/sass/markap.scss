@@ -1,0 +1,57 @@
+.item-bg-colors {
+	width: 300px;
+	height: 100px;
+	border: 1px solid $primary-light-color;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&:nth-child(2) {
+		background-color: $primary-brand-color;
+	}
+
+	&:nth-child(3) {
+		background-color: $secondary-brand-color;
+	}
+
+	&:nth-child(4) {
+		background-color: $secondary-bg-color;
+	}
+
+	&:nth-child(5) {
+		background-color: $primary-bg-color;
+	}
+}
+
+.markap {
+	p {
+		span {
+			&:nth-child(1) {
+				font-weight: 700;
+			}
+
+			&:nth-child(2) {
+				font-style: italic;
+			}
+		}
+	}
+}
+
+.text-font-weight {
+	&:nth-child(2) {
+		font-weight: 300;
+	}
+
+	&:nth-child(4) {
+		font-weight: 600;
+	}
+
+	&:nth-child(5) {
+		font-weight: 700;
+	}
+}
