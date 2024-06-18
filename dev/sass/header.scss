@@ -1,8 +1,33 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
+header {
+	.container {
+		display: flex;
+		padding-top: 25px;
+		padding-bottom: 39px;
+	}
+
+	.logo {
+		max-width: 172px;
+		width: 100%;
+	}
+}
+
+.mobile-container {
+	display: flex;
+	width: 100%;
+
+	nav {
+		display: flex;
+		gap: 45px;
+		align-items: center;
+		margin: 5px auto 0;
+
+		a {
+			color: $primary-light-color;
+			text-decoration: none;
+
+			&:hover {
+				color: $primary-brand-color;
+			}
+		}
 	}
 }

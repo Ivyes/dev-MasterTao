@@ -4,10 +4,16 @@
 	background-color: $primary-brand-color;
 	border: 1px solid $primary-brand-color;
 	border-radius: 90px;
-	padding: 17px 27px;
+	padding: 14px 28px 12px 27px;
 	font-size: 15px;
 	line-height: 146%;
-	transiion: .3s all linear;
+	transition: 0.3s all linear;
+
+	&:hover {
+		background-color: $secondary-brand-color;
+		border-color: $secondary-brand-color;
+		color: $primary-light-color;
+	}
 }
 
 .btn-outline {
@@ -16,5 +22,29 @@
 	&:hover {
 		background-color: $primary-brand-color;
 		color: $primary-light-color;
+	}
+}
+
+.btn-burger {
+	margin-left: auto;
+	position: relative;
+	background-color: #fff;
+	border: none;
+	width: 28px;
+	height: 2px;
+
+	&::after,
+	&::before {
+		content: "";
+		position: absolute;
+		width: 28px;
+		height: 2px;
+		background-color: #fff;
+		left: 0;
+		top: 11px;
+	}
+
+	&::after {
+		top: 22px;
 	}
 }
