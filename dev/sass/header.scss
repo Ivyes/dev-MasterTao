@@ -11,9 +11,19 @@ header {
 	}
 }
 
+.hamburger {
+	height: 26px;
+	margin-top: 6px;
+	margin-left: auto;
+}
+
 .mobile-container {
 	display: flex;
 	width: 100%;
+
+	&.show {
+		display: flex;
+	}
 
 	nav {
 		display: flex;

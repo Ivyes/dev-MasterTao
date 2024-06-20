@@ -24,27 +24,3 @@
 		color: $primary-light-color;
 	}
 }
-
-.btn-burger {
-	margin-left: auto;
-	position: relative;
-	background-color: #fff;
-	border: none;
-	width: 28px;
-	height: 2px;
-
-	&::after,
-	&::before {
-		content: "";
-		position: absolute;
-		width: 28px;
-		height: 2px;
-		background-color: #fff;
-		left: 0;
-		top: 11px;
-	}
-
-	&::after {
-		top: 22px;
-	}
-}

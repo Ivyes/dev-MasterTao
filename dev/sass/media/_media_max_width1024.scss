@@ -1,21 +1,32 @@
 @media screen and (max-width: 1024px) {
 	.mobile-container {
-		display: none;
 		flex-direction: column;
 		position: absolute;
+		z-index: 1;
 		left: 0;
 		right: 0;
-		top: 70px;
+		top: 72px;
 		background-color: $secondary-bg-color;
-		padding-top: 37px;
-		padding-bottom: 60px;
+		padding-top: 33px;
+		padding-bottom: 59px;
+		transform: translate(-120%, 0);
+		transition: 0.3s all linear;
+		box-shadow: 14px 22px 40px #1e234247;
+
+		&.show {
+			transform: translate(0, 0);
+		}
 
 		nav {
 			flex-direction: column;
 			font-size: 24px;
-			line-height: 222%;
+			margin-bottom: 27px;
 			gap: 0;
-			margin-bottom: 34px;
+			margin-top: 0;
+
+			a {
+				padding: 14px 24px;
+			}
 		}
 
 		.btn {
@@ -24,11 +35,7 @@
 			margin: 0 auto;
 			font-size: 16px;
 			padding-top: 21px;
-			padding-bottom: 21px;
-		}
-
-		&.show {
-			display: flex;
+			padding-bottom: 22px;
 		}
 	}
 }
