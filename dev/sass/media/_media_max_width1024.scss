@@ -1,5 +1,34 @@
 @media screen and (max-width: 1024px) {
 	.mobile-container {
 		display: none;
+		flex-direction: column;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 70px;
+		background-color: $secondary-bg-color;
+		padding-top: 37px;
+		padding-bottom: 60px;
+
+		nav {
+			flex-direction: column;
+			font-size: 24px;
+			line-height: 222%;
+			gap: 0;
+			margin-bottom: 34px;
+		}
+
+		.btn {
+			max-width: 295px;
+			width: 100%;
+			margin: 0 auto;
+			font-size: 16px;
+			padding-top: 21px;
+			padding-bottom: 21px;
+		}
+
+		&.show {
+			display: flex;
+		}
 	}
 }
