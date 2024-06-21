@@ -1,4 +1,17 @@
 @media screen and (max-width: 1024px) {
+	header {
+		.container {
+			padding-left: $container-padding-mob;
+			padding-right: $container-padding-mob;
+			padding-top: 18px;
+			padding-bottom: 16px;
+		}
+
+		.logo {
+			max-width: 126px;
+		}
+	}
+
 	.mobile-container {
 		flex-direction: column;
 		position: absolute;
