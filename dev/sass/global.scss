@@ -29,6 +29,13 @@ body.overflow-hidden {
 	margin-right: auto;
 }
 
+.container-xxl {
+	max-width: 1844px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 12px;
+}
+
 a {
 	color: $primary-brand-color;
 	transition: color 0.3s linear;
@@ -115,4 +122,50 @@ ul {
 	left: 7px;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	font-weight: 700;
+	line-height: 126%;
+}
+
+h1,
+.h1 {
+	font-size: 56px;
+}
+
+h2,
+.h2 {
+	font-size: 36px;
+}
+
+h3,
+.h3 {
+	font-size: 24px;
+}
+
+h4,
+.h4 {
+	font-size: 22px;
+}
+
+h5,
+.h5 {
+	font-size: 20px;
+}
+
+h6,
+.h6 {
+	font-size: 18px;
 }

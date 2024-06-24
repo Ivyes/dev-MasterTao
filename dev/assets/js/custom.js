@@ -10,16 +10,20 @@ function addClass() {
 
 burger.addEventListener("click", addClass);
 
-const bannerSlider = new Swiper('.banner-slider', {
-  	speed: 400,
-	spaceBetween: 100,
-	direction: 'horizontal',
-	slidesPerView: 1,
+const swiper = new Swiper(".banner-slider", {
+	// Optional parameters
+	loop: true,
+	spaceBetween: 50,
+
+	// If we need pagination
 	pagination: {
-    el: '.swiper-pagination',
+		el: ".swiper-pagination",
+		clickable: true,
 	},
+
+	// Navigation arrows
 	navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
 });

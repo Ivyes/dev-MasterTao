@@ -1,4 +1,58 @@
-.banner-slider {
-    width: 600px;
-    height: 300px;
+.banner {
+	&-slider {
+		height: 700px;
+		border-radius: 20px;
+	}
+
+	.container {
+		padding-bottom: 100px;
+	}
+
+	.swiper-slide {
+		border-radius: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		h1,
+		.h1 {
+			text-transform: uppercase;
+			max-width: 500px;
+			margin-bottom: 8px;
+		}
+
+		h5,
+		.h5 {
+			font-weight: 300;
+			margin-bottom: 37px;
+			max-width: 345px;
+		}
+	}
+}
+
+.swiper-pagination {
+	font-size: 0;
+	display: flex;
+	justify-content: center;
+	gap: 26px;
+
+	&.swiper-pagination-clickable {
+		.swiper-pagination-bullet {
+			border: 2px solid #fff;
+			opacity: 1;
+			background-color: transparent;
+			margin: 0;
+		}
+
+		.swiper-pagination-bullet-active {
+			background-color: #fff;
+		}
+	}
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	bottom: 43px;
 }

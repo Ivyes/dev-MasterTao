@@ -6,6 +6,7 @@
 	border-radius: 90px;
 	padding: 14px 28px 12px 27px;
 	font-size: 15px;
+	font-weight: 600;
 	line-height: 146%;
 	transition: 0.3s all linear;
 
@@ -22,5 +23,16 @@
 	&:hover {
 		background-color: $primary-brand-color;
 		color: $primary-light-color;
+	}
+}
+
+.btn-lg {
+	font-size: 16px;
+	padding: 20px 19px 20px 32px;
+
+	.icon {
+		width: 27px;
+		height: 27px;
+		margin: 0 0 0 30px;
 	}
 }
