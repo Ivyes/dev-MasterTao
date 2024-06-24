@@ -9,3 +9,17 @@ function addClass() {
 }
 
 burger.addEventListener("click", addClass);
+
+const bannerSlider = new Swiper('.banner-slider', {
+  	speed: 400,
+	spaceBetween: 100,
+	direction: 'horizontal',
+	slidesPerView: 1,
+	pagination: {
+    el: '.swiper-pagination',
+	},
+	navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
