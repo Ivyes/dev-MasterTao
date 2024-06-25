@@ -28,11 +28,17 @@
 
 .btn-lg {
 	font-size: 16px;
-	padding: 20px 19px 20px 32px;
+	padding: 20px 20px 18px 32px;
+	transition: 0.3s;
 
 	.icon {
 		width: 27px;
 		height: 27px;
-		margin: 0 0 0 30px;
+		margin: 0 0 0 45px;
+		transition: 0.3s all linear;
+	}
+
+	&:hover .icon {
+		filter: grayscale(1) brightness(1000%);
 	}
 }

@@ -11,19 +11,26 @@ function addClass() {
 burger.addEventListener("click", addClass);
 
 const swiper = new Swiper(".banner-slider", {
-	// Optional parameters
 	loop: true,
-	spaceBetween: 50,
+	spaceBetween: 20,
 
-	// If we need pagination
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
 
-	// Navigation arrows
 	navigation: {
-		nextEl: ".swiper-button-next",
-		prevEl: ".swiper-button-prev",
+		enabled: false,
+	},
+
+	breakpoints: {
+		// При разрешении >= 1025
+		1025: {
+			navigation: {
+				enabled: true,
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		},
 	},
 });

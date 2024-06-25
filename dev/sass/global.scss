@@ -3,6 +3,7 @@ body {
 	font-family: $font-primary;
 	background-color: $primary-bg-color;
 	color: $primary-light-color;
+	overflow: hidden;
 }
 
 body.overflow-hidden {
@@ -18,6 +19,7 @@ body.overflow-hidden {
 		left: 0;
 		background-color: #282b38e6;
 		backdrop-filter: blur(4px);
+		z-index: 1;
 	}
 }
 
@@ -168,4 +170,9 @@ h5,
 h6,
 .h6 {
 	font-size: 18px;
+}
+
+.swiper-initialized {
+	overflow: hidden;
+	position: relative;
 }
