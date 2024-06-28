@@ -3,5 +3,55 @@
         <div class="template-title half-section">
             <h2>Получить рассчет стоимости доставки вашего груза</h2>
         </div>
+        <form class="form">
+            <div class="form-row">
+                <div class="form-column">
+                    <div class="input-box">
+                        <label for="category">Категория товара:</label>
+                        <input type="text" placeholder="Категория товара" id="category">
+                    </div>
+                    <div class="input-box">
+                        <label for="weight">Вес груза (кг):</label>
+                        <input type="text" placeholder="Введите вес" id="weight">
+                    </div>
+                </div>
+                <div class="form-column">
+                    <div class="input-box">
+                        <label for="cost">Стоимость груза:</label>
+                        <input type="text" placeholder="Введите стоимость" id="cost">
+                    </div>
+                    <div class="input-box">
+                        <label for="volume">Объем груза (м3):</label>
+                        <input type="text" placeholder="Введите объем" id="volume">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-column">
+                    <div class="control-row checkbox">
+                        <input type="checkbox" name="checkbox-example" id="1">
+                        <label for="1">Страховка</label>
+                        <input type="checkbox" name="checkbox-example" id="2">
+                        <label for="2">Таможенное оформление</label>
+                    </div>
+                </div>
+                <div class="form-column">
+                    <div class="input-box">
+                        <label for="code">Код ТН ВЭД:</label>
+                        <input type="text" placeholder="Введите код" id="code">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-column">
+                    <input type="file" id="download-file">
+                    <label for="download-file">Загрузить фото товара</label>
+                </div>
+            </div>
+            <button type="button" class="btn">
+                Следующий шаг
+                <img src="assets/img/icon-arrow-left-btn.svg" alt="icon" class="icon">
+            </button>
+        </form>
     </div>
 </section>

@@ -76,6 +76,10 @@ ul {
 		padding-left: 35px;
 		position: relative;
 
+		&:not(:last-child) {
+			margin-bottom: 14px;
+		}
+
 		&::before {
 			content: "";
 			display: inline-block;
@@ -85,6 +89,8 @@ ul {
 			border: 1px solid $primary-bg-color;
 			position: absolute;
 			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
 		}
 	}
 }
