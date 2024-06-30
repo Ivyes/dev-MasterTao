@@ -1,3 +1,45 @@
 @media screen and (max-width: 767px) {
 
+    h2,
+    .h2 {
+        font-size: 24px;
+    }
+
+    .template-title {
+
+        &.half-section {
+
+            text-align: center;
+
+            &::after {
+                display: inline-block;
+            }
+
+            h2,
+            .h2 {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .calculation-form {
+
+        .form {
+            padding: 52px 30px 34px;
+        }
+
+        .form-row {
+            flex-direction: column;
+            row-gap: 20px;
+        }
+
+        .btn {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
 }

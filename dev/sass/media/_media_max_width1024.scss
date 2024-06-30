@@ -60,6 +60,7 @@
 			border-radius: 0;
 			height: calc(100vh - 69.89px);
 		}
+
 		.container {
 			text-align: center;
 		}
@@ -103,6 +104,12 @@
 
 		.swiper-pagination {
 			z-index: 1;
+		}
+	}
+
+	.calculation-form {
+		.form {
+			margin: 0 auto;
 		}
 	}
 }
