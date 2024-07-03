@@ -107,6 +107,26 @@
 		}
 	}
 
+	.template-title {
+
+		&.half-section {
+
+			text-align: center;
+			max-width: 100%;
+
+			&::after {
+				display: inline-block;
+			}
+
+			h2,
+			.h2 {
+				&::after {
+					display: none;
+				}
+			}
+		}
+	}
+
 	.calculation-form {
 		.form {
 			margin: 0 auto;
