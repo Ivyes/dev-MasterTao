@@ -1,4 +1,24 @@
-footer {
+.footer {
 	height: 100px;
 	margin-top: auto;
+
+	.container {
+		display: flex;
+	}
+
+	.footer-menu {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 18px;
+
+		a {
+			color: #85899C;
+			transition: .3s;
+
+			&:hover {
+				color: $primary-brand-light-color;
+			}
+		}
+	}
 }
