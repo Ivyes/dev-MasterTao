@@ -34,3 +34,14 @@ const swiper = new Swiper(".banner-slider", {
 		},
 	},
 });
+
+// JS download file name
+
+const downloadFile = document.querySelectorAll(".download-file");
+const fileName = document.querySelector('.file-name');
+
+downloadFile.forEach(item => {
+	item.addEventListener('change', function () {
+		fileName.innerHTML = item.files[0].name;
+	})
+});

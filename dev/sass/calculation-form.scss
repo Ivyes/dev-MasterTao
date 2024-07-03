@@ -1,6 +1,10 @@
 .calculation-form {
     padding: 100px 0 113px;
 
+    .container {
+        position: relative;
+    }
+
     .form {
         max-width: 626px;
         width: 100%;
@@ -29,6 +33,19 @@
 
         .icon {
             margin-left: 50px;
+        }
+    }
+
+    .calcuation-decor {
+        position: absolute;
+        left: 626px;
+        bottom: -113px;
+        max-width: 560px;
+        width: 29.167vw;
+        min-width: 370px;
+
+        img {
+            width: 100%;
         }
     }
 
