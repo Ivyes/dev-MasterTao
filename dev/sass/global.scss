@@ -3,6 +3,8 @@ body {
 	font-family: $font-primary;
 	background-color: $primary-bg-color;
 	color: $primary-light-color;
+	position: relative;
+	z-index: 0;
 }
 
 body.overflow-hidden {
@@ -177,7 +179,30 @@ h6,
 	font-size: 18px;
 }
 
-.swiper-initialized {
-	overflow: hidden;
-	position: relative;
+// Один з варіантів виконання роботи свайпера.
+// .swiper-initialized {
+// 	overflow: hidden;
+// 	position: relative;
+// }
+
+section {
+	padding: 90px 0px 100px;
+
+	&.acsent {
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			left: 50%;
+			transform: translate(-50%, 0);
+			max-width: 1820px;
+			width: calc(100% - 30px);
+			top: 0;
+			bottom: 0;
+			z-index: -1;
+			border-radius: 20px;
+			background-color: #363A4D;
+		}
+	}
 }
