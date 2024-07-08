@@ -1,20 +1,24 @@
 .advantages {
-    .advantage {
-        max-width: 263px;
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
+    .swiper-pagination {
+        position: static;
+        margin-top: 10px;
     }
+}
 
-    .advantage-img {
+.advantage {
+    max-width: 263px;
+    margin: 0 auto;
+    text-align: center;
+
+    &-img {
         width: 113px;
         height: 113px;
-        border: 1px solid #6C7188;
-        border-radius: 50%;
+        margin: 0 auto 22px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 auto 22px;
+        border: 1px solid #6C7188;
+        border-radius: 50%;
 
         img {
             width: 93px;
@@ -22,13 +26,13 @@
             background-color: #89C249;
             border-radius: 50%;
             object-fit: scale-down;
-            padding: 9px;
+            padding: 10px;
         }
     }
 
-    .advantages-title {
-        font-size: 18px;
+    &-title {
         font-weight: 400;
-        margin: 0;
+        font-size: 18px;
+        margin-bottom: 0;
     }
 }
