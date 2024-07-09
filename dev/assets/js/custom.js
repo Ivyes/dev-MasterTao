@@ -78,4 +78,17 @@ const swiperAdvantages = new Swiper('#advantages', {
 	}
 });
 
+// default slider
 
+const defaultSlider = new Swiper('.default-slider', {
+	speed: 400,
+	spaceBetween: 30,
+	loop: true,
+	slidesPerView: 1,
+
+	breakpoints: {
+		1200: {
+			slidesPerView: 3,
+		}
+	},
+});
