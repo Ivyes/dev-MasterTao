@@ -87,6 +87,10 @@ const defaultSlider = new Swiper('.default-slider', {
 	slidesPerView: 1,
 
 	breakpoints: {
+		767: {
+			spaceBetween: 10,
+			slidesPerView: 2,
+		},
 		1200: {
 			slidesPerView: 3,
 		}
