@@ -93,6 +93,11 @@ const defaultSlider = new Swiper('.default-slider', {
 		},
 		1200: {
 			slidesPerView: 3,
+			navigation: {
+				enabled: true,
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
 		}
 	},
 });

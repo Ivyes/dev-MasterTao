@@ -56,7 +56,31 @@
         .btn {
             max-width: 153px;
             width: 100%;
-            padding: 13px 17px;
+            padding: 13px 10px;
         }
+    }
+}
+
+.slider-container {
+    position: relative;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        color: #6C6F7F;
+
+        &:hover {
+            color: $secondary-brand-color;
+        }
+    }
+
+    .swiper-button-prev {
+        left: -70px;
+    }
+
+    .swiper-button-next {
+        right: -70px;
     }
 }
