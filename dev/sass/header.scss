@@ -9,8 +9,9 @@ header {
 	}
 
 	.logo {
-		max-width: 172px;
-		width: 100%;
+		img {
+			max-height: 49px;
+		}
 	}
 }
 

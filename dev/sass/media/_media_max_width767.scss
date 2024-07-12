@@ -25,4 +25,16 @@
             align-items: center;
         }
     }
+
+    .card {
+        max-width: 335px;
+
+        .btn-row {
+
+            .btn {
+                max-width: 138px;
+                padding: 13px 9px;
+            }
+        }
+    }
 }

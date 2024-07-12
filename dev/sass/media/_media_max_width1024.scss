@@ -142,6 +142,26 @@
 		width: 100%;
 	}
 
+	.swiper.default-slider {
+
+		.swiper-horizontal>.swiper-pagination-bullets,
+		.swiper-pagination-bullets.swiper-pagination-horizontal,
+		.swiper-pagination-custom,
+		.swiper-pagination-fraction {
+			position: static;
+			margin-top: 32px;
+		}
+	}
+
+
+	.slider-container {
+
+		.swiper-button-prev,
+		.swiper-button-next {
+			display: none;
+		}
+	}
+
 	.footer {
 
 		// укоротити лінію з верху, зробити як по макету
