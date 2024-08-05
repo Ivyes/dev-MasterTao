@@ -1,0 +1,44 @@
+.about {
+    .container {
+        position: relative;
+    }
+
+    .template-title {
+        text-align: left;
+
+        &::after {
+            left: 0;
+            transform: translateX(0);
+        }
+    }
+}
+
+.about-information {
+    max-width: 555px;
+    width: 100%;
+}
+
+.about-img {
+    position: absolute;
+    right: 0;
+    top: -54px;
+
+    &::after {
+        content: "";
+        display: block;
+        max-width: 550px;
+        width: 100%;
+        height: 550px;
+        background-color: #363A4D;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        border-radius: 50%;
+    }
+
+    img {
+        width: 100%;
+        margin-right: 36px;
+    }
+}

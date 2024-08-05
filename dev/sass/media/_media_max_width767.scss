@@ -37,4 +37,20 @@
             }
         }
     }
+
+    .about-img {
+        max-width: 320px;
+        width: 320px;
+
+        &::after {
+            max-width: 300px;
+            width: 100%;
+            height: 300px;
+            right: 10px;
+        }
+
+        img {
+            height: 320px;
+        }
+    }
 }

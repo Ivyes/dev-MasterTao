@@ -162,6 +162,34 @@
 		}
 	}
 
+	.about {
+		.template-title {
+			text-align: center;
+
+			&::after {
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+	}
+
+	.about-information {
+		margin: 0 auto;
+
+	}
+
+	.about-img {
+		position: relative;
+		max-width: 550px;
+		width: 100%;
+		inset: 0;
+		margin: 0 auto;
+
+		img {
+			margin-right: 0;
+		}
+	}
+
 	.footer {
 
 		// укоротити лінію з верху, зробити як по макету
