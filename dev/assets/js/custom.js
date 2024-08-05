@@ -28,8 +28,8 @@ const swiperBanner = new Swiper(".banner-slider", {
 		1025: {
 			navigation: {
 				enabled: true,
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
+				nextEl: ".banner-slider-btn-next",
+				prevEl: ".banner-slider-btn-prev",
 			},
 		},
 	},
@@ -80,7 +80,7 @@ const swiperAdvantages = new Swiper('#advantages', {
 
 // default slider
 
-const defaultSlider = new Swiper('.default-slider', {
+const defaultSlider = new Swiper('#delivery', {
 	speed: 400,
 	spaceBetween: 30,
 	loop: true,
@@ -88,8 +88,47 @@ const defaultSlider = new Swiper('.default-slider', {
 
 	navigation: {
 		enabled: true,
-		nextEl: ".swiper-button-prev",
-		prevEl: ".swiper-button-next",
+		nextEl: ".swiper-button-delivery-prev",
+		prevEl: ".swiper-button-delivery-next",
+	},
+
+	pagination: {
+		el: '.swiper-pagination',
+		enabled: true,
+		clickable: true,
+	},
+
+	breakpoints: {
+		800: {
+			slidesPerView: 2,
+		},
+
+		1024: {
+			slidesPerView: 2,
+			pagination: {
+				enabled: false,
+			},
+		},
+
+		1300: {
+			slidesPerView: 3,
+			pagination: {
+				enabled: false,
+			},
+		},
+	},
+});
+
+const servicesSlider = new Swiper('#services', {
+	speed: 400,
+	spaceBetween: 30,
+	loop: true,
+	slidesPerView: 1,
+
+	navigation: {
+		enabled: true,
+		nextEl: ".swiper-button-services-prev",
+		prevEl: ".swiper-button-services-next",
 	},
 
 	pagination: {
