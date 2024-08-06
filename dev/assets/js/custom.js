@@ -88,8 +88,8 @@ const defaultSlider = new Swiper('#delivery', {
 
 	navigation: {
 		enabled: true,
-		nextEl: ".swiper-button-delivery-prev",
-		prevEl: ".swiper-button-delivery-next",
+		nextEl: ".swiper-button-delivery-next",
+		prevEl: ".swiper-button-delivery-prev",
 	},
 
 	pagination: {
@@ -127,8 +127,8 @@ const servicesSlider = new Swiper('#services', {
 
 	navigation: {
 		enabled: true,
-		nextEl: ".swiper-button-services-prev",
-		prevEl: ".swiper-button-services-next",
+		nextEl: ".swiper-button-services-next",
+		prevEl: ".swiper-button-services-prev",
 	},
 
 	pagination: {
