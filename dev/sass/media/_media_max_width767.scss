@@ -1,5 +1,10 @@
 @media screen and (max-width: 767px) {
 
+    .container {
+        padding-right: $container-padding-mob;
+        padding-left: $container-padding-mob;
+    }
+
     h2,
     .h2 {
         font-size: 24px;
@@ -54,9 +59,14 @@
             row-gap: 25px;
         }
 
+        .column {
+            max-width: initial;
+        }
+
         &-discription {
             font-size: 16px;
             line-height: 1.495;
+            text-align: justify;
         }
     }
 
