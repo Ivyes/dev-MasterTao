@@ -1,8 +1,52 @@
 .question {
     padding-top: 0;
 
+    .row {
+        column-gap: 34px;
+    }
+
     .accordion {
         max-width: 716px;
+    }
+
+    &-form {
+        max-width: 390px;
+        border-radius: 20px;
+        box-shadow: 5px 15px 40px 0 rgba(11, 24, 97, 0.32);
+        background-color: #363A4D;
+        padding: 40px;
+
+        &-title,
+        &-discription {
+            line-height: 1.26;
+        }
+
+        &-discription {
+            font-weight: 300;
+            font-size: 17px;
+            margin-bottom: 23px;
+
+        }
+
+        .btn {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            padding-left: 33px;
+            padding-right: 19px;
+
+            img {
+                margin: 0;
+            }
+        }
+
+        .form-column {
+            margin-bottom: 26px;
+        }
+
+        .input-box:not(:last-child) {
+            margin-bottom: 14px;
+        }
     }
 }
 
@@ -12,7 +56,10 @@
         background-color: transparent;
         border: 1px solid #3a444e;
         border-radius: 10px;
-        margin-bottom: 16px;
+
+        &:not(:last-child) {
+            margin-bottom: 16px;
+        }
 
         &:first-child,
         &:last-child {
@@ -47,6 +94,7 @@
             box-shadow: none;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
+            padding-bottom: 10px;
 
             &::after {
                 transform: rotate(-90deg);
@@ -57,7 +105,7 @@
     }
 
     .accordion-body {
-        padding: 0px 99px 21px 34px;
+        padding: 0px 80px 19px 34px;
         background-color: #fff;
         color: #282b38;
         border-bottom-left-radius: 10px;
