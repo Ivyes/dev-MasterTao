@@ -2,7 +2,9 @@
     padding-top: 0;
 
     .row {
-        column-gap: 34px;
+        gap: 34px;
+        justify-content: center;
+        align-items: start;
     }
 
     .accordion {
@@ -15,6 +17,8 @@
         box-shadow: 5px 15px 40px 0 rgba(11, 24, 97, 0.32);
         background-color: #363A4D;
         padding: 40px;
+        // min-height: 553px;
+        // height: 100%;
 
         &-title,
         &-discription {
@@ -88,6 +92,9 @@
 
         &::after {
             background-image: url(../assets/img/icon-arrow-left-btn-white.svg);
+            width: 27px;
+            height: 27px;
+            background-size: initial;
         }
 
         &:not(.collapsed) {
