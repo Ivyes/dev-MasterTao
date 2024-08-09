@@ -173,5 +173,19 @@
 		.menu-wrapper {
 			display: none;
 		}
+
+		.address-column {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		address {
+			text-align: center;
+		}
+
+		.footer-social {
+			text-align: center;
+		}
 	}
 }

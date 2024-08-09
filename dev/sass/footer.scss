@@ -2,11 +2,20 @@
 	padding-top: 56px; // виправити!!! 
 	padding-bottom: 50px;
 
+	&::before {
+		content: '';
+		width: calc(100% - 40px);
+		height: 2px;
+		display: block;
+		background-color: #E58D35;
+		margin: 0 auto;
+	}
+
 	.container {
 		display: flex;
 		gap: 0 90px;
 		padding-top: 40px;
-		border-top: 2px solid #E58D35;
+		// border-top: 2px solid #E58D35;
 	}
 
 	.address-column {
