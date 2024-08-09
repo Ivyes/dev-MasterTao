@@ -89,7 +89,7 @@
         }
 
         &::after {
-            background-image: url(../assets/img/icon-arrow-left-btn-white.svg);
+            background-image: url(assets/img/icon-arrow-left-btn-white.svg);
             width: 27px;
             height: 27px;
             background-size: initial;
@@ -103,7 +103,7 @@
 
             &::after {
                 transform: rotate(-90deg);
-                background-image: url(../assets/img/icon-arrow-left-btn.svg);
+                background-image: url(assets/img/icon-arrow-left-btn.svg);
             }
         }
 
