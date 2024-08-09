@@ -1,2 +1,29 @@
 @media screen and (max-width: 575px) {
+    .accordion {
+        .accordion-button {
+            padding: 12px 20px;
+            font-size: 16px;
+        }
+
+        .accordion-body {
+            padding: 0px 15px 12px 20px;
+            font-size: 14px;
+        }
+    }
+
+    .question {
+        .row {
+            --bs-gutter-x: 0;
+            --bs-gutter-y: 0;
+        }
+    }
+
+    .question-form {
+        padding: 40px 20px;
+    }
+
+    .question-form-title,
+    .question-form-discription {
+        text-align: center;
+    }
 }
