@@ -26,4 +26,28 @@
     .question-form-discription {
         text-align: center;
     }
+
+    // cooperation
+    .cooperation {
+        &-text {
+            padding-right: 0;
+            padding-left: 0;
+            font-size: 16px;
+
+            p {
+                margin-bottom: 33px;
+
+                &~img.m-left,
+                &~img.m-right {
+                    margin-top: 43px;
+                }
+            }
+
+            .btn {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
 }

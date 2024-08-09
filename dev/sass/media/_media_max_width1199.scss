@@ -4,4 +4,17 @@
 			gap: 35px;
 		}
 	}
+
+	// cooperation
+
+	.cooperation {
+		&-text {
+			padding: 0px 40px;
+		}
+
+		.m-left,
+		.m-right {
+			margin: 0 auto 36px;
+		}
+	}
 }
