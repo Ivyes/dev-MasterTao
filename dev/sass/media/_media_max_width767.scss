@@ -20,8 +20,11 @@
     }
 
 
-
     .calculation-form {
+
+        .template-title {
+            margin-bottom: 79px;
+        }
 
         .form {
             padding: 52px 30px 34px;
@@ -37,6 +40,24 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+        }
+    }
+
+    .advantages {
+        .template-title {
+            margin-bottom: 69px;
+        }
+    }
+
+    .delivery {
+        .template-title {
+            margin-bottom: 56px;
+        }
+    }
+
+    .services {
+        .template-title {
+            margin-bottom: 60px;
         }
     }
 
@@ -59,6 +80,10 @@
             row-gap: 25px;
         }
 
+        .template-title {
+            margin-bottom: 49px;
+        }
+
         .column {
             max-width: initial;
         }
@@ -73,6 +98,22 @@
         &-img {
             max-width: 277px;
             margin: 0 auto;
+        }
+    }
+
+    .question {
+        .template-title {
+            margin-bottom: 52px;
+        }
+    }
+
+    .cooperation {
+        .template-title {
+            margin-bottom: 71px;
+        }
+
+        &-text {
+            text-align: justify;
         }
     }
 

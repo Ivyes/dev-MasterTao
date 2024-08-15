@@ -1,4 +1,12 @@
 @media screen and (max-width: 575px) {
+
+    .advantages {
+        .swiper-pagination {
+            margin-top: 25px;
+        }
+
+    }
+
     .accordion {
         .accordion-button {
             padding: 12px 20px;
@@ -15,6 +23,7 @@
         .row {
             --bs-gutter-x: 0;
             --bs-gutter-y: 0;
+            gap: 28px;
         }
     }
 
@@ -29,6 +38,14 @@
 
     // cooperation
     .cooperation {
+        .template-title {
+
+            h3,
+            .h3 {
+                font-size: 16px;
+            }
+        }
+
         &-text {
             padding-right: 0;
             padding-left: 0;
