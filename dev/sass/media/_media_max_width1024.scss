@@ -1,4 +1,8 @@
 @media screen and (max-width: 1024px) {
+	body {
+		overflow-x: hidden;
+	}
+
 	header {
 		.container {
 			padding-left: $container-padding-mob;
@@ -22,7 +26,7 @@
 		background-color: $secondary-bg-color;
 		padding-top: 33px;
 		padding-bottom: 59px;
-		transform: translate(-120%, 0);
+		transform: translate(120%, 0);
 		transition: 0.3s all linear;
 		box-shadow: 14px 22px 40px #1e234247;
 
